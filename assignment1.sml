@@ -12,5 +12,7 @@ fun is_older (d1 : int * int * int, d2 : int * int * int) =
     then true
     else false
 
-(* consider revising using recursive loop that scans and saves value to is_less result to variable instead of rechecking it in each clause *)
+(* 1. consider revising using recursion that scans and saves value to is_less result to variable instead of rechecking it in each clause 
+   2. add date-validity checking to the is_less function somehow.
+*)
 
